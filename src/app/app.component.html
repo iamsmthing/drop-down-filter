@@ -1,0 +1,7 @@
+<div>
+  <p-dropdown [options]="options.length!=array2.length?array2:options" [(ngModel)]="selectedOptions1" (onChange)="onDropdownChange($event, 'dropdown1')" [filter]="true" placeholder="Select options"></p-dropdown>
+</div>
+
+<div>
+  <p-dropdown [options]="options.length!=array1.length?array1:options" [(ngModel)]="selectedOptions2" (onChange)="onDropdownChange($event, 'dropdown2')" [filter]="true" placeholder="Select options"></p-dropdown>
+</div>
